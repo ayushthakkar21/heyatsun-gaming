@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@media (max-width:1400px) {
+    .nft-card-body {
+        padding: 15px !important;
+    }
+
+    .nft-name p {
+        font-size: 12px;
+    }
+
+    .nft-name h5 {
+        font-size: 16px;
+    }
+
+    .nft-time span {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .buying {
+        padding: 5px 11px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .nft-price i {
+        padding: 5px 7px;
+        font-size: 14px;
+        margin-left: -1px;
+    }
+
+    .nft-price span {
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+
+
+@media (max-width:1200px) {
+    /* ------------------------------ news-letter ------------------------------ */
+    .nft-card-img {
+        height: 220px;
+    }
+    .nft-card-body {
+        padding: 10px !important;
+    }
+    /* game */
+    .game-world
+{
+    position: static;
+
+}
+}
+
+@media (max-width:992px) {
+    .icons i:nth-child(1) {
+        display: inline-block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /*--------------------------------------------- nft-card ---------------------------------------------*/
+    .trending-nft .col-lg-3 {
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
+
+    .nft-card {
+        margin-bottom: 50px;
+    }
+
+    .nft-card-body {
+        padding: 20px !important;
+    }
+
+    .nft-name p {
+        font-size: 15px;
+    }
+
+    .nft-name h5 {
+        font-size: 18px;
+    }
+
+    .nft-time span {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .buying {
+        padding: 5px 11px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .nft-price i {
+        padding: 10px 13px;
+        font-size: 14px;
+        margin-left: -1px;
+    }
+
+    .nft-price span {
+        font-size: 16px;
+        font-weight: 600;
+        margin-left: 12px;
+    }
+
+    /* -----------------------------------FAQ------------------------------------- */
+
+    .contact-mar{
+        margin-bottom: 24px;
+    }
+
+
+
+
+    /* -----------------------------------FAQ------------------------------------- */
+
+    .faq-img{
+        text-align: center;
+    }
+    .faq-img img:nth-child(2){
+        display: none;
+    }
+    .faq-title h2{
+        margin-top: 30px;
+        margin-bottom: 10px !important;
+    }
+    .faq-item h5{
+        font-size: 15px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .testimonial-container {
+        padding: 20px 30px;
+    }
+
+    .fa-quote {
+        display: none;
+    }
+
+
+
+    /* ------------------------------ news-letter ------------------------------ */
+    .nft-card-img {
+        height: 380px;
+    }
+    /* game */
+    .last-part{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    .search {
+        display: none;
+    }
+
+    .icons i:nth-child(2) {
+        display: inline-block;
+    }
+
+    /* ------------------------------ news-letter ------------------------------ */
+    .news-letter .container form input {
+        display: block;
+        width: 100%;
+    }
+    
+    .news-letter .container form button {
+        display: block;
+        width: 100%;
+        margin-top: 25px;
+    }
+    
+    /*--------------------------------- achivments -----------------------------------*/
+    
+    .our-achivements p {
+        font-size: 15px !important;
+    }
+    
+    
+    
+    /* ------------------------------ log-in ------------------------------ */
+
+    .form-card::before,.form-card::after{
+        display: none;
+    }
+    .form-card{
+        width: 100%;
+    }
+    .front {
+        height: 570px;
+        width: 100% !important;
+    }
+
+
+
+    /*--------------------------------- breadcrumb -----------------------------------*/
+    .breadcrumb {
+        flex-direction: column;
+    }
+
+    .breadcrumb p {
+        margin: 0 !important;
+    }
+
+    .breadcrumb {
+        padding: 60px !important;
+    }
+}
+
+
+@media (max-width:400px) {
+
+    /*--------------------------------- breadcrumb -----------------------------------*/
+    .trending-nft .col-lg-3 {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+
+    /* ------------------------------ news-letter ------------------------------ */
+    .nft-card-img {
+        height: 320px;
+    }
+    
+    
+    
+    /* ------------------------------ HEADER ------------------------------ */
+    header {
+        padding: 10px 0px !important;
+    }
+
+    /* ---------------------------------- product-info  ------------------------------ */
+    .purchase-info {
+        flex-direction: column !important;
+    }
+
+    .purchase-info input {
+        margin-bottom: 15px;
+        width: 100%;
+        padding: 5px 0px;
+    }
+
+    .purchase-info .btn:first-of-type {
+        background: #256eff;
+        padding: 7px 30px;
+        width: 100%;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    /*------------------------------ main-banner -------------------------*/
+    .main p:before,
+    .main p:after {
+        display: none;
+    }
+
+    .main p {
+        font-size: 16px !important;
+    }
+
+    .main .game-text {
+        font-size: 24px;
+
+
+    }
+
+    .member-btn {
+        padding: 10px 20px;
+    }
+
+    /*--------------------------------- breadcrumb -----------------------------------*/
+    .breadcrumb {
+        flex-direction: column;
+    }
+
+    .breadcrumb p {
+        margin: 0 !important;
+    }
+
+    .breadcrumb {
+        padding: 60px !important;
+    }
+
+    /*--------------------------------- Gallery Section -----------------------------------*/
+    .gallery-btn {
+        margin: 0 !important;
+        padding: 3px 20px;
+    }
+    
+    /*--------------------------------- Gallery Section -----------------------------------*/
+    .faq-title h2::after{
+        display: none;
+    }
+    .faq-item h5{
+        font-size: 13px;
+        /* padding: 0.5em 1rem;  */
+        margin-bottom: 0 !important;
+    }
+    .faq-item p{
+        font-size: 10px;
+        text-align: justify;
+    }
+    .faq-que{
+        margin-top: 0px !important;
+    }
+    .faq-section .container{
+        padding:10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .nft-card-body {
+        padding: 12px !important;
+    }
+
+    .nft-name p {
+        font-size: 13px;
+    }
+
+    /*--------------------------------- Gallery Section -----------------------------------*/
+    .gallery-btn {
+        margin: 0 !important;
+        padding: 3px 15px;
+    }
+    
+    
+    /*--------------------------------- trending nfts -----------------------------------*/
+    .nft-card-img {
+        height: 240px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------- product-info  -------------------------------------------------------- */
+@media (max-width:1000px) {
+    .product-container .col-6 {
+        width: 100%;
+        flex: 0 0 auto;
+    }
+
+    .product-details {
+        margin-top: 25px;
+    }
+
+    .product-details ul li {
+        line-height: 1.8;
+    }
+}

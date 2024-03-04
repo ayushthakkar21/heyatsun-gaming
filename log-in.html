@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!------------------------- bootstrap css ------------------------->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!------------------------- bootstrap css ------------------------->
+
+
+    <!------------------------- font-awesome ------------------------->
+    <link rel="stylesheet" href="assets/icons/all.min.css">
+    <!------------------------- font-awesome ------------------------->
+
+
+    <!------------------------- font-awesome ------------------------->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!------------------------- font-awesome ------------------------->
+
+
+    <!------------------------- main css ------------------------->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <!------------------------- main css ------------------------->
+
+
+</head>
+
+<body>
+
+
+
+
+
+    <div class="container-fluid log-in-form">
+        <section>
+            <div class="main m-auto">
+                <div class="form-card">
+                    <div class="front">
+                        <form action="">
+                            <h3 class="text-center open">login here</h3>
+                            <label for="" class="text-start"> E-mail Address</label>
+                            <input type="email" id="myMessage" name="" id="" placeholder="enter your e-mail" required>
+                            <label for="" class="text-start"> password</label>
+                            <input type="password" name="" id="mypassword" placeholder="password">
+                            <a href="javascript:void(0)" id="submit" class="form-btn text-center"
+                                style="display:block;">log
+                                in</a>
+                            <div class="social d-flex align-items-center justify-content-between">
+                                <div class="go"><i class="fab fa-google"></i> Google</div>
+                                <div class="fb"><i class="fab fa-facebook"></i> Facebook</div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="back">
+                        <h3 class="text-center">form submitted</h3>
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class="back back-icon-close">
+                        <a href="/index.html" class="back-icon"><i class="fa-solid fa-x"></i></a>
+                        <h3 class="text-center">form submitted</h3>
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="pop-up one d-flex align-items-center justify-content-between">
+            <h4>Please Enter Email <i class="fa-solid fa-xmark close"></i></h4>
+        </div>
+        <div class="pop-up two d-flex align-items-center justify-content-between">
+            <h4>Please Enter Password <i class="fa-solid fa-xmark close"></i></h4>
+        </div>
+
+    </div>
+
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/jquery-3.6.2.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#submit').click(function () {
+                if ($('#myMessage').val() == '') {
+                    $(".one").addClass("visible");
+                }
+                else if
+                    ($('#mypassword').val() == '') {
+                    $(".two").addClass("visible");
+                }
+                else {
+                    $(".form-card").addClass("rotate");
+                }
+            });
+            $(".close").click(function () {
+                $(".pop-up").removeClass("visible");
+                $(".pop-up").css("transition", "all 0.5s linear");
+            });
+
+            // $("#myMessage").click(function () {
+            //     $(".pop-up").removeClass("visible");
+            //     $(".pop-up").css("transition", "all 0.5s linear");
+            // });
+            // $("#mypassword").click(function () {
+            //     $(".pop-up").removeClass("visible");
+            //     $(".pop-up").css("transition", "all 0.5s linear");
+            // });
+        });
+    </script>
+
+</body>
+
+</html>

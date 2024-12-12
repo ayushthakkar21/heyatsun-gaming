@@ -158,7 +158,7 @@ nav {
 .main-banner:before {
     content: "";
     position: absolute;
-    background: url("/assets/images/122.jpg");
+    background: url("https://ayushthakkar21.github.io/heyatsun-gaming/assets/images/122.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1008,7 +1008,7 @@ section {
 
 
 .achivements {
-    background-image: url("/assets/images/achivements.jpg");
+    background-image: url("https://ayushthakkar21.github.io/heyatsun-gaming/assets/images/achivements.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
